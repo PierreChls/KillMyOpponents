@@ -36,6 +36,10 @@
 			header p#header_score{
 				float: right;
 			}
+			
+			.container{
+				margin: 60px auto;
+			}
 		</style>
 		
 	</head>
@@ -47,10 +51,26 @@
 		</header>
 		
 		<div class="container">
-			<p>Hello World</p>
+			<ul class="tweets" style="height: 400; overflow: scroll;"></ul>
 		</div>
 
 		</div>
+		
+		<script type="text/javascript">
+
+			$(document).ready(function() {
+				var $container = $('ul.tweets'),
+					socket = io.connect('http://localhost:8080');
+					
+		 
+			    socket.on('twitter', function(data) {
+			    	//console.debug(data);
+			    	$('.tweets').prepend('<li>' + data.text + '</li>');
+			    });
+			});
+			
+		</script>
+		
 	</body>
 </html>
 

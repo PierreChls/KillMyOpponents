@@ -2,8 +2,10 @@
     "name": "KillMyOpponents",
     "version": "0.1.0",
     "dependencies": {
-    	"socket.io": "~1.0"
+    	"socket.io": "~1.0",
+    	"ntwitter": "~0.5",
+    	"oauth" : "~0.7"
     },
     "author": "PedroCarlos <pierre.chls@gmail.com>",
-    "description": "App de destruction de Tweet"
+    "description": "Petite interface affichant des tweets en temps réel et pouvant être détruit par l'utilisateur"
 }
