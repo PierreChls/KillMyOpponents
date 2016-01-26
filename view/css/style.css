@@ -1,35 +1,58 @@
-header{
+header {
 	width: 100%;
 	height: 50px;
-			    position: absolute;
-			    top: 0;
-			    left: 0;
-			    background-color: #222;
-			}
-			header p{
-				margin: 15px;
-				color:#F2F2F2;
-			}
-			header a{
-				color:#F2F2F2;
-			}
-			header p#header_title{
-				float: left;
-			}
-			header p#header_score{
-				float: right;
-			}
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #222;
+}
+
+header p {
+	margin: 15px;
+	color:#F2F2F2;
+}
+
+header a {
+	color:#F2F2F2;
+}
+
+header p#header_title {
+	float: left;
+}
+
+header p#header_score {
+	float: right;
+}
 			
-			.container{
-				margin: 60px auto;
-			}
+.container {
+	margin: 60px auto;
+}
 			
-			.container .tweets{
-				height: 80%;
-				overflow: scroll;
-				text-align: center;
-			}
+.container .tweets {
+	height: 80%;
+	overflow: scroll;
+	text-align: center;
+}
 			
-			.container .tweets canvas{
-				margin: 10px 2%;
-			}
+.container .tweets canvas {
+	margin: 10px 2%;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #222;
+}
+
+footer p {
+	margin: 15px;
+	color:#F2F2F2;
+	text-align: center;
+}
+
+footer a {
+	color:#F2F2F2;
+}
