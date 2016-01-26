@@ -3,8 +3,9 @@
     "version": "0.1.0",
     "dependencies": {
     	"socket.io": "~1.0",
-    	"ntwitter": "~0.5",
-    	"oauth" : "~0.7"
+    	"ntwitter" : "~0.5",
+    	"oauth"    : "~0.7",
+    	"path"     : "~0.12"
     },
     "author": "PedroCarlos <pierre.chls@gmail.com>",
     "description": "Petite interface affichant des tweets en temps réel et pouvant être détruit par l'utilisateur"
