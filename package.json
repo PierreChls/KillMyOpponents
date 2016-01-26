@@ -2,6 +2,7 @@
     "name": "KillMyOpponents",
     "version": "0.1.0",
     "dependencies": {
+    	"socket.io": "~1.0"
     },
     "author": "PedroCarlos <pierre.chls@gmail.com>",
     "description": "App de destruction de Tweet"
