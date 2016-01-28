@@ -1,5 +1,7 @@
 # KillMyOpponents
 
+![alt tag](https://github.com/PierreChls/KillMyOpponents/blob/master/view/img/screen.png)
+
 Project realized for the [Soixantes Circuits](http://soixantecircuits.fr/)'s studio, as part of a test for an internship. Small interface to display real-time tweets and able to be destroyed by the user.
 
 **Supported OS :**
@@ -24,17 +26,16 @@ Project realized for the [Soixantes Circuits](http://soixantecircuits.fr/)'s stu
 
 #### Create a JSON file configuration to connect your Twitter App
 
-- Name this file : **twitter_auth.json**
-- Put it in the **init** folder
-- Copy/paste this text on your json file
-
 	{
-	    "consumer_key"        : "[YOUR_CONSUMER_KEY]",
-	    "consumer_secret"     : "[YOUR_CONSUMER_SECRET]",
-	    "access_token_key"    : "[YOUR_ACCESS_TOKEN_KEY]",
-	    "access_token_secret" : "[YOUR_ACCESS_TOKEN_SECRET]"
+		"consumer_key"        : "[YOUR_CONSUMER_KEY]",
+		"consumer_secret"     : "[YOUR_CONSUMER_SECRET]",
+		"access_token_key"    : "[YOUR_ACCESS_TOKEN_KEY]",
+		"access_token_secret" : "[YOUR_ACCESS_TOKEN_SECRET]"
 	}
 
+- Copy/paste this text on your json file
+- Name this file : **twitter_auth.json**
+- Put it in the **init** folder
 - Complete with your authentication informations
 	
 #### Run app
