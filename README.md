@@ -1,8 +1,6 @@
 # KillMyOpponents
 
-![alt tag](https://github.com/PierreChls/KillMyOpponents/blob/master/view/img/screen.png)
-
-Project realized for the [Soixantes Circuits](http://soixantecircuits.fr/)'s studio, as part of a test for an internship. Small interface to display real-time tweets and able to be destroyed by the user.
+Project realized for an internship test. Small interface to display real-time tweets and able to be destroyed by the user.
 
 **Supported OS :**
 
