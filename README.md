@@ -30,6 +30,11 @@ Small interface to display real-time tweets and able to be destroyed by the user
 - Put it in the **init** folder
 - Complete with your authentication informations
 
+#### Select your hashtag
+
+- Go to the **init** folder
+- Change the default hashtag in the **config.json** file
+
 #### Run app
 
 	node app.js
