@@ -1,23 +1,17 @@
-# KillMyOpponents
+# Kill my tweets
 
-Project realized for an internship test. Small interface to display real-time tweets and able to be destroyed by the user.
-
-**Supported OS :**
-
-- Linux Ubuntu
-- Mac OSX
-- Windows
+Small interface to display real-time tweets and able to be destroyed by the user.
 
 ## How to use it
 
 #### Clone the project
 
-	git clone https://github.com/PierreChls/KillMyOpponents.git
-	
+	git clone https://github.com/pierrechls/kill-my-tweets.git
+
 #### Go to the project root
 
-	cd KillMyOpponents
-	
+	cd kill-my-tweets
+
 #### Install all modules from package.json file
 
 	npm install
@@ -35,16 +29,15 @@ Project realized for an internship test. Small interface to display real-time tw
 - Name this file : **twitter_auth.json**
 - Put it in the **init** folder
 - Complete with your authentication informations
-	
+
 #### Run app
 
 	node app.js
-	
+
 #### Open your favorite browser and tap this url
 
 	http://localhost:8080/
-	
+
 ## Prior installation
 
 You have to download [Node.js](https://nodejs.org/en/download/)
-
