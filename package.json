@@ -1,5 +1,5 @@
 {
-    "name": "KillMyOpponents",
+    "name": "kill-my-tweets",
     "version": "0.1.0",
     "dependencies": {
         "socket.io": "~1.0",
@@ -7,6 +7,6 @@
         "oauth"    : "~0.7",
         "path"     : "~0.12"
     },
-    "author": "PedroCarlos <pierre.chls@gmail.com>",
-    "description": "Petite interface affichant des tweets en temps réel et pouvant être détruit par l'utilisateur"
+    "author": "Pierre Charles <pierre.chls@gmail.com>",
+    "description": "Small interface to display real-time tweets and able to be destroyed by the user"
 }
